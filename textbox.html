@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+		<script type="text/javascript">
+			
+			
+// ------------------------------------basic------------------------------------ 
+
+
+					// function test() 
+					// {
+					// 	var a= document.getElementById('no1').value;
+					// 	var b= document.getElementById('no2').value;
+
+					// 	var ans=parseInt(a) + parseInt(b);
+
+
+					// 	document.getElementById('ans').value = ans;
+					// }
+
+// -----------------------------------plus ,minus button-----------------------------------
+			var x=0;
+			function sum()
+			{
+				x=x+1;
+				var ans=parseInt(0) + parseInt(x);
+				document.getElementById('ans').value=ans;
+			}
+
+			function sub()
+			{
+				if(x>0)
+				{	
+				  x=x-1;
+				  var ans=parseInt(x) + parseInt(0);
+				  document.getElementById('ans').value=ans;
+				}  
+			}
+
+// -----------------plus ,minus ,division , multiplication--------------------------------
+
+					// function test() 
+					// {
+					// 	var a= document.getElementById('no1').value;
+					// 	var b= document.getElementById('no2').value;
+
+					// 	var ans=parseInt(a) + parseInt(b);
+
+
+					// 	document.getElementById('ans').value = ans;
+					// }
+					// function test1() 
+					// {
+					// 	var a= document.getElementById('no1').value;
+					// 	var b= document.getElementById('no2').value;
+
+					// 	var ans=parseInt(a) - parseInt(b);
+
+
+					// 	document.getElementById('ans').value = ans;
+					// }
+					// function test2() 
+					// {
+					// 	var a= document.getElementById('no1').value;
+					// 	var b= document.getElementById('no2').value;
+
+					// 	var ans=parseInt(a) * parseInt(b);
+
+
+					// 	document.getElementById('ans').value = ans;
+					// }
+					// function test3 () 
+					// {
+					// 	var a= document.getElementById('no1').value;
+					// 	var b= document.getElementById('no2').value;
+
+					// 	var ans=parseInt(a) / parseInt(b);
+
+
+					// 	document.getElementById('ans').value = ans;
+					// }
+
+				
+
+		</script>
+
+</head>
+<body>
+	<!-- NO1:<input type="text" name="" id="no1">
+	NO2:<input type="text" name="" id="no2">
+
+		<button onclick="test();">Click here</button>
+
+		<input type="text" name="" id="ans" readonly=""> -->
+
+
+
+<!-- ----------------------plus,minus button----------------------------- -->
+		
+		<button onclick="sum();">+</button>
+		<input type="text" name="" id="ans" value="0">	
+		<button onclick="sub();">-</button>
+
+
+
+<!-- -----------------------------plus, minus, division ,multiplication---------------- -->
+
+
+	<!-- A=<input type="text" name="" id="no1">
+	B=<input type="text" name="" id="no2">
+	
+	<br>
+	<br>
+	<button onclick="test();">+</button>
+	<button onclick="test1();">-</button>
+	<button onclick="test2();">*</button>
+	<button onclick="test3();">/</button>
+	<br>
+	<input type="text" name="" id="ans"> -->
+
+	
+</body>
+</html>
